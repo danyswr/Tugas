@@ -1,0 +1,383 @@
+1. 
+---------------------------Perulangan 1 sampai 10-------------------------------------
+
+#include <stdio.h>  // Library standar untuk input-output di C
+
+int main() {
+    // Menggunakan for loop untuk mencetak angka 1 sampai 10
+    // Sintaks for terdiri dari tiga bagian: inisialisasi, kondisi, dan peningkatan nilai
+    for (int i = 1; i <= 10; i++) {
+        // Cetak nilai i saat ini diikuti dengan spasi
+        printf("%d ", i);
+    }
+    // Cetak newline (pindah ke baris baru) setelah loop selesai
+    printf("\n");
+
+    // Menggunakan while loop untuk mencetak angka 1 sampai 10
+    int i = 1;  // Inisialisasi variabel i
+    while (i <= 10) {  // Kondisi, selama i kurang atau sama dengan 10, loop berjalan
+        // Cetak nilai i saat ini diikuti dengan spasi
+        printf("%d ", i);
+        i++;  // Peningkatan nilai i
+    }
+    // Cetak newline setelah loop selesai
+    printf("\n");
+
+    // Menggunakan do-while loop untuk mencetak angka 1 sampai 10
+    // Dalam do-while, blok kode dijalankan terlebih dahulu baru kemudian kondisi diperiksa
+    int j = 1;  // Inisialisasi variabel j
+    do {
+        // Cetak nilai j saat ini diikuti dengan spasi
+        printf("%d ", j);
+        j++;  // Peningkatan nilai j
+    } while (j <= 10);  // Kondisi dicek setelah blok kode dijalankan
+    // Cetak newline setelah loop selesai
+    printf("\n");
+
+    return 0;  // Mengakhiri program dan mengembalikan nilai 0 (tanda sukses)
+}
+
+---------------------------Perulangan 1 sampai 100-------------------------------------
+
+#include <stdio.h>  // Library standar untuk input-output di C
+
+int main() {
+    // Menggunakan for loop untuk mencetak deret angka 1 sampai 100
+    printf("For loop - Deret 1-100:\n");  // Cetak judul untuk loop for
+    for (int i = 1; i <= 100; i++) {  // Inisialisasi i = 1, kondisi i <= 100, dan peningkatan i++
+        // Cetak nilai i saat ini diikuti dengan spasi
+        printf("%d ", i);
+    }
+    // Cetak newline setelah loop selesai
+    printf("\n");
+
+    // Menggunakan while loop untuk mencetak deret angka 1 sampai 100
+    printf("While loop - Deret 1-100:\n");  // Cetak judul untuk loop while
+    int i = 1;  // Inisialisasi variabel i
+    while (i <= 100) {  // Selama i kurang atau sama dengan 100, loop berjalan
+        // Cetak nilai i saat ini diikuti dengan spasi
+        printf("%d ", i);
+        i++;  // Peningkatan nilai i
+    }
+    // Cetak newline setelah loop selesai
+    printf("\n");
+
+    // Menggunakan do-while loop untuk mencetak deret angka 1 sampai 100
+    printf("Do-while loop - Deret 1-100:\n");  // Cetak judul untuk loop do-while
+    int j = 1;  // Inisialisasi variabel j
+    do {
+        // Cetak nilai j saat ini diikuti dengan spasi
+        printf("%d ", j);
+        j++;  // Peningkatan nilai j
+    } while (j <= 100);  // Kondisi dicek setelah blok kode dijalankan
+    // Cetak newline setelah loop selesai
+    printf("\n");
+
+    return 0;  // Mengakhiri program dan mengembalikan nilai 0 (tanda sukses)
+}
+
+---------------------------Perulangan 10 sampai 20-------------------------------------
+
+#include <stdio.h>  // Library standar untuk input-output di C
+
+int main() {
+    // Menggunakan for loop untuk mencetak deret angka dari 10 sampai 20
+    printf("For loop - Deret 10-20:\n");  // Cetak judul untuk hasil dari loop for
+    for (int i = 10; i <= 20; i++) {  // Inisialisasi i = 10, kondisi i <= 20, dan peningkatan i++
+        // Cetak nilai i saat ini diikuti dengan spasi
+        printf("%d ", i);
+    }
+    // Cetak newline setelah loop selesai
+    printf("\n");
+
+    // Menggunakan while loop untuk mencetak deret angka dari 10 sampai 20
+    printf("While loop - Deret 10-20:\n");  // Cetak judul untuk hasil dari loop while
+    int i = 10;  // Inisialisasi variabel i
+    while (i <= 20) {  // Selama i kurang atau sama dengan 20, loop berjalan
+        // Cetak nilai i saat ini diikuti dengan spasi
+        printf("%d ", i);
+        i++;  // Peningkatan nilai i
+    }
+    // Cetak newline setelah loop selesai
+    printf("\n");
+
+    // Menggunakan do-while loop untuk mencetak deret angka dari 10 sampai 20
+    printf("Do-while loop - Deret 10-20:\n");  // Cetak judul untuk hasil dari loop do-while
+    int j = 10;  // Inisialisasi variabel j
+    do {
+        // Cetak nilai j saat ini diikuti dengan spasi
+        printf("%d ", j);
+        j++;  // Peningkatan nilai j
+    } while (j <= 20);  // Kondisi dicek setelah blok kode dijalankan
+    // Cetak newline setelah loop selesai
+    printf("\n");
+
+    return 0;  // Mengakhiri program dan mengembalikan nilai 0 (tanda sukses)
+}
+
+
+---------------------------Perulangan 50 sampai 75-------------------------------------
+
+#include <stdio.h>  // Menyertakan pustaka standar untuk fungsi input dan output
+
+int main() {
+    // Menggunakan for loop untuk mencetak deret angka dari 50 sampai 75
+    printf("For loop - Deret 50-75:\n");  // Mencetak judul untuk hasil dari for loop
+    for (int i = 50; i <= 75; i++) {  // Inisialisasi i di 50, selama i kurang dari atau sama dengan 75, tambahkan 1 pada i setiap iterasi
+        printf("%d ", i);  // Mencetak nilai i diikuti oleh spasi
+    }
+    printf("\n");  // Mencetak newline setelah selesai
+
+    // Menggunakan while loop untuk mencetak deret angka dari 50 sampai 75
+    printf("While loop - Deret 50-75:\n");  // Mencetak judul untuk hasil dari while loop
+    int i = 50;  // Inisialisasi variabel i di luar loop
+    while (i <= 75) {  // Selama i kurang dari atau sama dengan 75, lakukan loop
+        printf("%d ", i);  // Mencetak nilai i diikuti oleh spasi
+        i++;  // Meningkatkan nilai i setiap iterasi
+    }
+    printf("\n");  // Mencetak newline setelah selesai
+
+    // Menggunakan do-while loop untuk mencetak deret angka dari 50 sampai 75
+    printf("Do-while loop - Deret 50-75:\n");  // Mencetak judul untuk hasil dari do-while loop
+    int j = 50;  // Inisialisasi variabel j di luar loop
+    do {
+        printf("%d ", j);  // Mencetak nilai j diikuti oleh spasi
+        j++;  // Meningkatkan nilai j setiap iterasi
+    } while (j <= 75);  // Mengecek kondisi setelah eksekusi; jika j kurang dari atau sama dengan 75, ulangi loop
+    printf("\n");  // Mencetak newline setelah selesai
+
+    return 0;  // Mengakhiri program dan mengembalikan nilai 0 (menandakan sukses)
+}
+
+
+---------------------------Perulangan 90 sampai 115-------------------------------------
+#include <stdio.h>  // Menyertakan pustaka standar untuk fungsi input dan output
+
+int main() {
+    // Menggunakan for loop untuk mencetak deret angka dari 90 sampai 115
+    printf("For loop - Deret 90-115:\n");  // Mencetak judul untuk hasil dari for loop
+    for (int i = 90; i <= 115; i++) {  // Inisialisasi i di 90, selama i kurang dari atau sama dengan 115, tambahkan 1 pada i setiap iterasi
+        printf("%d ", i);  // Mencetak nilai i diikuti oleh spasi
+    }
+    printf("\n");  // Mencetak newline setelah selesai
+
+    // Menggunakan while loop untuk mencetak deret angka dari 90 sampai 115
+    printf("While loop - Deret 90-115:\n");  // Mencetak judul untuk hasil dari while loop
+    int i = 90;  // Inisialisasi variabel i di luar loop
+    while (i <= 115) {  // Selama i kurang dari atau sama dengan 115, lakukan loop
+        printf("%d ", i);  // Mencetak nilai i diikuti oleh spasi
+        i++;  // Meningkatkan nilai i setiap iterasi
+    }
+    printf("\n");  // Mencetak newline setelah selesai
+
+    // Menggunakan do-while loop untuk mencetak deret angka dari 90 sampai 115
+    printf("Do-while loop - Deret 90-115:\n");  // Mencetak judul untuk hasil dari do-while loop
+    int j = 90;  // Inisialisasi variabel j di luar loop
+    do {
+        printf("%d ", j);  // Mencetak nilai j diikuti oleh spasi
+        j++;  // Meningkatkan nilai j setiap iterasi
+    } while (j <= 115);  // Mengecek kondisi setelah eksekusi; jika j kurang dari atau sama dengan 115, ulangi loop
+    printf("\n");  // Mencetak newline setelah selesai
+
+    return 0;  // Mengakhiri program dan mengembalikan nilai 0 (menandakan sukses)
+}
+===============================================================================================================================
+2. 
+
+#include <stdio.h>  // Menyertakan pustaka standar untuk fungsi input dan output
+
+int main() {
+    int n;  // Deklarasi variabel n untuk menyimpan batas akhir deret
+
+    // Meminta input dari user
+    printf("Masukkan batas akhir deret (input): ");  // Menampilkan pesan untuk meminta input
+    scanf("%d", &n);  // Membaca input dari pengguna dan menyimpannya dalam variabel n
+
+    // Menampilkan bilangan ganjil
+    printf("Bilangan Ganjil:\n");  // Menampilkan judul untuk bilangan ganjil
+    for (int i = 1; i <= 2 * n; i++) {  // Loop dari 1 hingga 2 kali n
+        if (i % 2 != 0) {  // Memeriksa apakah i adalah bilangan ganjil
+            printf("%d ", i);  // Jika ganjil, mencetak i
+        }
+    }
+    printf("\n");  // Mencetak newline setelah mencetak semua bilangan ganjil
+
+    // Menampilkan bilangan genap
+    printf("Bilangan Genap:\n");  // Menampilkan judul untuk bilangan genap
+    for (int i = 1; i <= 2 * n; i++) {  // Loop dari 1 hingga 2 kali n
+        if (i % 2 == 0) {  // Memeriksa apakah i adalah bilangan genap
+            printf("%d ", i);  // Jika genap, mencetak i
+        }
+    }
+    printf("\n");  // Mencetak newline setelah mencetak semua bilangan genap
+
+    return 0;  // Mengakhiri program dan mengembalikan nilai 0 (menandakan sukses)
+}
+
+
+===============================================================================================================================
+
+3. 
+#include <stdio.h>  // Menyertakan pustaka standar input/output
+
+int main() {
+    int i, j;  // Mendeklarasikan variabel i dan j untuk digunakan dalam loop
+
+    // POLA A DAN B DENGAN FOR LOOP
+    printf("Pola a & b (for loop):\n");  // Menampilkan judul untuk pola a dan b menggunakan for loop
+
+    // Pola a - Segitiga kiri bawah
+    for (i = 1; i <= 5; i++) {  // Loop baris dari 1 sampai 5
+        for (j = 1; j <= i; j++) {  // Loop kolom dari 1 sampai i
+            printf("* ");  // Mencetak bintang di setiap kolom
+        }
+        printf("\n");  // Mencetak newline setelah setiap baris
+    }
+
+    // Pola b - Segitiga kanan bawah
+    for (i = 1; i <= 5; i++) {  // Loop baris dari 1 sampai 5
+        for (j = 1; j <= 5 - i; j++) {  // Loop untuk mencetak spasi di depan
+            printf("  ");  // Mencetak dua spasi untuk posisi bintang
+        }
+        for (j = 1; j <= i; j++) {  // Loop kolom untuk mencetak bintang
+            printf("* ");  // Mencetak bintang
+        }
+        printf("\n");  // Mencetak newline setelah setiap baris
+    }
+
+    // POLA A DAN B DENGAN WHILE LOOP
+    printf("\nPola a & b (while loop):\n");  // Menampilkan judul untuk pola a dan b menggunakan while loop
+
+    // Pola a - Segitiga kiri bawah
+    i = 1;  // Inisialisasi i untuk while loop
+    while (i <= 5) {  // Loop baris dari 1 sampai 5
+        j = 1;  // Inisialisasi j untuk kolom
+        while (j <= i) {  // Loop kolom dari 1 sampai i
+            printf("* ");  // Mencetak bintang
+            j++;  // Increment j
+        }
+        printf("\n");  // Mencetak newline setelah setiap baris
+        i++;  // Increment i
+    }
+
+    // Pola b - Segitiga kanan bawah
+    i = 1;  // Inisialisasi i untuk while loop
+    while (i <= 5) {  // Loop baris dari 1 sampai 5
+        j = 1;  // Inisialisasi j untuk kolom
+        while (j <= 5 - i) {  // Loop untuk mencetak spasi di depan
+            printf("  ");  // Mencetak dua spasi
+            j++;  // Increment j
+        }
+        j = 1;  // Reset j untuk loop kolom bintang
+        while (j <= i) {  // Loop kolom untuk mencetak bintang
+            printf("* ");  // Mencetak bintang
+            j++;  // Increment j
+        }
+        printf("\n");  // Mencetak newline setelah setiap baris
+        i++;  // Increment i
+    }
+
+    // POLA A DAN B DENGAN DO-WHILE LOOP
+    printf("\nPola a & b (do-while loop):\n");  // Menampilkan judul untuk pola a dan b menggunakan do-while loop
+
+    // Pola a - Segitiga kiri bawah
+    i = 1;  // Inisialisasi i untuk do-while loop
+    do {
+        j = 1;  // Inisialisasi j untuk kolom
+        do {
+            printf("* ");  // Mencetak bintang
+            j++;  // Increment j
+        } while (j <= i);  // Loop kolom sampai i
+        printf("\n");  // Mencetak newline setelah setiap baris
+        i++;  // Increment i
+    } while (i <= 5);  // Loop baris sampai 5
+
+    // Pola b - Segitiga kanan bawah
+    i = 1;  // Inisialisasi i untuk do-while loop
+    do {
+        j = 1;  // Inisialisasi j untuk kolom
+        do {
+            printf("  ");  // Mencetak dua spasi
+            j++;  // Increment j
+        } while (j <= 5 - i);  // Loop spasi
+        j = 1;  // Reset j untuk loop kolom bintang
+        do {
+            printf("* ");  // Mencetak bintang
+            j++;  // Increment j
+        } while (j <= i);  // Loop kolom sampai i
+        printf("\n");  // Mencetak newline setelah setiap baris
+        i++;  // Increment i
+    } while (i <= 5);  // Loop baris sampai 5
+
+    return 0;  // Mengakhiri program dan mengembalikan nilai 0 (menandakan sukses)
+}
+
+======================================================================================================================
+
+4. 
+#include <stdio.h>  // Menyertakan pustaka standar input/output
+#include <string.h>  // Menyertakan pustaka string untuk manipulasi string (meskipun tidak digunakan di sini)
+
+// Fungsi untuk menghitung mutu berdasarkan tabel angka mutu
+double hitungMutu(double nilai) {
+    // Menghitung nilai mutu berdasarkan rentang nilai
+    if (nilai >= 90) return 4.0;  // Nilai 90 atau lebih mendapat mutu 4.0
+    else if (nilai >= 80) return 3.7;  // Nilai 80-89 mendapat mutu 3.7
+    else if (nilai >= 75) return 3.3;  // Nilai 75-79 mendapat mutu 3.3
+    else if (nilai >= 70) return 3.0;  // Nilai 70-74 mendapat mutu 3.0
+    else if (nilai >= 65) return 2.7;  // Nilai 65-69 mendapat mutu 2.7
+    else if (nilai >= 60) return 2.3;  // Nilai 60-64 mendapat mutu 2.3
+    else if (nilai >= 55) return 2.0;  // Nilai 55-59 mendapat mutu 2.0
+    else if (nilai >= 50) return 1.7;  // Nilai 50-54 mendapat mutu 1.7
+    else if (nilai >= 40) return 1.0;  // Nilai 40-49 mendapat mutu 1.0
+    else return 0.0;  // Nilai di bawah 40 mendapat mutu 0.0
+}
+
+int main() {
+    int totalSKS = 0;  // Variabel untuk menyimpan total SKS
+    double totalNilaiMutu = 0;  // Variabel untuk menyimpan total nilai mutu
+    int sks;  // Variabel untuk menyimpan SKS mata kuliah
+    double nilai, mutu;  // Variabel untuk menyimpan nilai dan mutu
+    char kodeMK[10], namaMK[50];  // Variabel untuk menyimpan kode dan nama mata kuliah
+
+    // Input untuk 7 mata kuliah
+    for (int i = 1; i <= 7; i++) {  // Loop dari 1 sampai 7 untuk mata kuliah
+        printf("Mata kuliah ke-%d\n", i);  // Menampilkan nomor mata kuliah
+        printf("----------------------------\n");
+
+        // Input Kode Mata Kuliah
+        printf("Kode Mata Kuliah: ");
+        scanf("%s", kodeMK);  // Membaca input kode mata kuliah
+
+        // Input Nama Mata Kuliah
+        printf("Nama Mata Kuliah: ");
+        scanf(" %[^\n]", namaMK);  // Menggunakan %[^\n] untuk membaca string dengan spasi
+
+        // Input SKS dan nilai
+        printf("SKS: ");
+        scanf("%d", &sks);  // Membaca input SKS
+        printf("Nilai: ");
+        scanf("%lf", &nilai);  // Membaca input nilai
+
+        // Menghitung Nilai * Mutu (berdasarkan Tabel Angka Mutu)
+        mutu = hitungMutu(nilai);  // Menghitung mutu berdasarkan nilai
+        double nilaiMutu = sks * mutu;  // Menghitung nilai mutu dengan SKS
+
+        // Output hasil hitung Nilai x Mutu
+        printf("Nilai x Mutu: %.2lf\n", nilaiMutu);  // Menampilkan hasil perhitungan nilai x mutu
+        printf("----------------------------\n");
+
+        // Menambahkan SKS dan Nilai Mutu ke total
+        totalSKS += sks;  // Menambahkan SKS ke total SKS
+        totalNilaiMutu += nilaiMutu;  // Menambahkan nilai mutu ke total nilai mutu
+    }
+
+    // Menghitung dan menampilkan IPS
+    double IPS = totalNilaiMutu / totalSKS;  // Menghitung Indeks Prestasi Semester (IPS)
+    printf("Indeks Prestasi Semester (IPS): %.2lf\n", IPS);  // Menampilkan IPS
+
+    return 0;  // Mengakhiri program dan mengembalikan nilai 0 (menandakan sukses)
+}
+
+
+
